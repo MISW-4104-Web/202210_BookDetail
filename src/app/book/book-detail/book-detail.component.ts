@@ -12,11 +12,6 @@ export class BookDetailComponent implements OnInit {
 
   constructor() { }
 
-  getShortDate() {
-    let shortDate: String = this.bookDetail.publishingDate + '';
-    return shortDate.split('T')[0];
-  }
-
   ngOnInit() {
   }
 
